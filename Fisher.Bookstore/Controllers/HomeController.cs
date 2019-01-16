@@ -10,4 +10,12 @@ namespace Fisher.Bookstore.Controllers
             return Content("Hello World");
         }
     }
+
+    public class AboutController : Controller
+    {
+        public IActionResult Index()
+        {
+            return Content("This is the About controller response");
+        }
+    }
 }
