@@ -1,1 +1,3 @@
 https://github.com/dotnet/core/blob/master/.gitignore
+bin/
+obj/
