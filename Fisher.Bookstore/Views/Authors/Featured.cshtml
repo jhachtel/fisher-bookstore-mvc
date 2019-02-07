@@ -1,18 +1,3 @@
-@{
-    ViewData["Title"] = "Featured Authors Page";
-}
+@model Fisher.Bookstore.Models.Author
 
-<h1>Featured Authors</h1>
-
-<p>This is the featured authors page.</p>
-
-<div class="navbar">
-    
-    <ul>
-        <li><a href="https://localhost:5001/authors/">Authors</a></li>
-        <li><a href="https://localhost:5001/">Home</a></li>
-        <li><a href="https://localhost:5001/books">Books</a></li>
-        <li><a href="https://localhost:5001/about">About</a></li>
-    </ul>
-
-</div>
+<p>This month's featured author is @ModelExpressionProvider.Name</p>

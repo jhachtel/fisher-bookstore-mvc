@@ -15,7 +15,12 @@ namespace Fisher.Bookstore.Controllers
         [Route("featured")]
         public IActionResult Featured()
         {
-            return View(); //Content("This is the Authors controller response for Featured");
+            var featuredAuthor = new Author()
+            {
+                AuthorId = 1,
+                Name = "J.K. Rowling"
+            };
+            return View(featuredAuthor); //Content("This is the Authors controller response for Featured");
         }
     }
 }
