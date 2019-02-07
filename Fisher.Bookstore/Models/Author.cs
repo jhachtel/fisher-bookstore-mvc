@@ -7,6 +7,6 @@ namespace Fisher.Bookstore.Models
         public int AuthorID { get; set; }
 
         public string Name { get; set; }
-        
+
     }
 }
